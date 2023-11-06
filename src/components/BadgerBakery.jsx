@@ -90,7 +90,7 @@ export default function BadgerBakery() {
 
     }
 
-    console.log(goodsAmounts);
+    // console.log(goodsAmounts);
 
     return (
         <View style={{ justifyContent: "center",
@@ -111,7 +111,3 @@ export default function BadgerBakery() {
         </View>
     )
 }
-
-//<Button title="-" onPress={handleRemoveItem} disabled={goodsAmounts[currentItem] === 0}/>
-//<Text>{goodsAmounts[currentItem]}</Text>
-//<Button title="+" onPress={handleAddItem} disabled={addItemDisabled}/>
